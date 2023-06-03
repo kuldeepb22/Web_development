@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+  <marquee class="text-light">Welcome to My Profile Page</marquee>
+    <nav class="navbar">
+      <ul>   
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#projects">Projects</a></li>
+          
+    </ul>
+       
+     </nav>
+    
+    <h2 id="about">About Me</h2>
+    <p class="text-light bg-dark">Hi,<br>I am a student at IIT Kanpur of Civil Department.<br></p>
+      <img class="pic" src="https://lh3.googleusercontent.com/pw/AJFCJaVBKTghrqYCFZH76snaHDaspwlo8GQNGHgnjK4cEJa2DsJfl4p7dOWjkk8Kr-y_3ZwYsIVU1OMCxpbL9REQ3MkPxABtMdEJLxDQUdesQw8uIVEksa9tR614LfsQwf8WOORvd3CaSC04Hmxc8Cj0SevdNciCqmMR1jl3AzlwnAJr--a6AXcjIGXg7_L9Dai-_DGm0nuzWd6k49YJyIq2oOqpxhlpgwKMVVkhG_SMTxA59LVlQA_krpPPNT5LQy8LgwGEm771DBPXBcNlMjSQJotFohMSFIukFTAspw1ve2mp8XM7Dn3ADYDaNOB0CdFj55ggfy6zCluk6pk8-gQtJ0e78BY1hqkrRjhQAroyv60Bszt4W_PV2Ks6Ndy_Hjaacd7lpXZLclqOkexYdg1Mi1pK4eG_lVFUON7in0uZKnqrdw18mADmggEE-6e0tShHQiZ15QF0fR1F2uJEPUNv0wcVcg0wjYaZz-JqxLQ45hqOaQCZ5ZvovimSBE-Y-xkmhfeqtq2wflqu6fWjCMwcEtWEWTIQIh4xpwoNWrWvQ8lzuKy38eAvgyPygysyzgFczLmayM2fVAwOY7IhsgS6cm7OYNmBbXvyFHYdXbcBR3Hg0hGsNNrtq-G4jN0dOrWgCZfnstjziOkxjejffxzwrRyfPlC1U3ONp9AQ_tvHpkTunVhe2ejGhsPU3ya1-NgNkGy93W9b7XlVsUWyIbRJwpSmEUdi75rOUPM-WIvvNxXqrya9nP9zMfV7Anhn3fnBUkZIk1xX3aIQ2gmT0wZILinl7Mr24dY3H4xm5LCa5KMAuKA7penmK7bMxclSrD4Gzty5gCNwJ30I7Pck0w_qBDdtqmGcjYtqdriqLgVnhIZy1qsrEo1AMk48OMJW90t6lKL0NkNY8eiaBQtgyyZ2YA=w1244-h933-s-no?authuser=0" alt="Image Description" width="300" height="200">  
+    
+      <h2 id="projects">Projects</h2>
+      <p class="text-light">This is a project of web devlopment .</p>
+    <h2 id="contact">Contact</h2>
+    <!-- fourth section for Contact -->
+<section class="page-section bg-secondary text-light">
+  <div class="container">
+      <div class="text-center">
+          <h1 class="section-heading text-uppercase">Contact Us</h1>
+          <h3 class="section-subheading text-muted"> </h3>
+      </div>
+  </div>
+  <div class="container">
+      <form id="contactForm">
+          <div class="row align-items-stretch mb-5">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <input class="form-control-lg w-100" id="name" type="text" placeholder="Your Name *"
+                          required="required">
+                  </div>
+                  <div class="form-group">
+                      <input class="form-control-lg w-100" id="email" type="email" placeholder="Your Email *"
+                          required="required">
+                  </div>
+                  <div class="form-group mb-md-0 w-100">
+                      <input class="form-control-lg w-100" id="phone" type="tel" placeholder="Your Phone *"
+                          required="required">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group h-100">
+                      <textarea class="form-control-lg w-100" id="message" placeholder="Your Message *"
+                          required="required" style="height: 90%;"></textarea>
+                  </div>
+              </div>
+          </div>
+          <div class="text-center">
+              <button class="btn btn-primary btn-lg text-uppercase" id="sendMessageButton" type="submit">Send
+                  Message</button>
+          </div>
+      </form>
+  </div>
+</section>
+<!-- End of 4th section -->
+    <p class="text-info"></p>
+    <a href="https://www.instagram.com/kuldeep_0_555/"target="_blank">
+     <p class="text-info" > <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Image Description" height="60" width = '60'></a>
+
+      <br>
+    click here to contact me</p> 
+  </body>
+</html>
